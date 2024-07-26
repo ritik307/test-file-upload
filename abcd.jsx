@@ -1,4 +1,4 @@
-const StyledElementOurCompany = styled.div\`
+const StyledElementOurCompany = styled.div\`test
 background - color: #FFFFFF;
 display: flex;
 flex - direction: row;
@@ -101,8 +101,8 @@ export default ElementOurCompany = () => {
  <img className="img" alt="Image replace here" src={image2} />
  <div className="data-text">
  <div className="overlap-group">
- <p className="text-wrapper">{{abcd}}</p>
- <div className="text-wrapper-2">{{newkey}}</div>
+ <p className="text-wrapper">{{mykey}}</p>
+ <div className="text-wrapper-2">{{mykeyef}}</div>
  </div>
  </div>
  <div className="company-text">
