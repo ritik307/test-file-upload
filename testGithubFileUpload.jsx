@@ -1,4 +1,4 @@
-const StyledElementOurCompany = styled.div\`test
+const StyledElementOurCompany = styled.div\`
 background - color: #FFFFFF;
 display: flex;
 flex - direction: row;
@@ -95,27 +95,27 @@ width: 100 %;
 
 export default ElementOurCompany = () => {
  return (
- <StyledElementOurCompany>
- <div className="div">
- <img className="image-replace-here" alt="Image replace here" src={image1} />
- <img className="img" alt="Image replace here" src={image2} />
- <div className="data-text">
- <div className="overlap-group">
- <p className="text-wrapper">{{mykey}}</p>
- <div className="text-wrapper-2">{{mykeyef}}</div>
+ <styledelementourcompany id="id-29">
+ <div classname="div" id="id-30">
+ <img classname="image-replace-here" alt="Image replace here" src="{image1}" id="id-31">
+ <img classname="img" alt="Image replace here" src="{image2}" id="id-32">
+ <div classname="data-text" id="id-33">
+ <div classname="overlap-group" id="id-34">
+ <p classname="text-wrapper" id="id-35">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+ <div classname="text-wrapper-2" id="id-36">92%</div>
  </div>
  </div>
- <div className="company-text">
- <div className="text-wrapper-3">Our Company</div>
- <p className="lorem-ipsum-dolor">
+ <div classname="company-text" id="id-37">
+ <div classname="text-wrapper-3" id="id-38">Our Company</div>
+ <p classname="lorem-ipsum-dolor" id="id-39">
  Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit.Lorem
  ipsum dolor sit amet, consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit. Irem ipsum
- dolor sit amet, <br />
- <br />
+ dolor sit amet, <br id="id-40">
+ <br id="id-41">
  Sectetur adipiscing elit dolor sit amet, consectetur adipiscing elit.
  </p>
  </div>
  </div>
- </StyledElementOurCompany>
+ </styledelementourcompany>
  );
 };
